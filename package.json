@@ -1,8 +1,11 @@
 {
   "name": "zayzream",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "test fodder for the Nightmare PR review app",
   "main": "src/index.js",
+  "bin": {
+    "zayzream": "src/index.js"
+  },
   "scripts": {
     "start": "node src/index.js"
   },
