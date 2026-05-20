@@ -6,4 +6,12 @@ function lower(s) {
   return String(s).toLowerCase();
 }
 
-module.exports = { upper, lower };
+function greet(name) {
+  return `hello, ${name}!`;
+}
+
+function shout(name) {
+  return upper(greet(name));
+}
+
+module.exports = { upper, lower, greet, shout };
